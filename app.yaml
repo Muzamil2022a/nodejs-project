@@ -4,10 +4,10 @@ threadsafe: true
 
 handlers:
   - url: /
-    static_files: dist/posts/index.html
-    upload: dist/posts/index.html
+    static_files: posts/index.html
+    upload: posts/index.html
   - url: /
-    static_dir: dist/posts
+    static_dir: posts
 
 skip_files:
   - e2e/
